@@ -1,0 +1,626 @@
+25-Aug-2015 18:24:15.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:24:15.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:24:15.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:24:15.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:24:15.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:24:15.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:24:15.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:24:15.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:24:15.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:24:15.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:24:15.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:24:15.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:24:15.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:24:15.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:24:15.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:24:15.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:24:15.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:24:15.307 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:24:15.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:24:15.599 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:24:15.605 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:24:15.624 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:24:15.625 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1180 ms
+25-Aug-2015 18:24:15.680 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:24:15.681 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:24:15.700 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:24:16.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 727 ms
+25-Aug-2015 18:24:16.440 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:24:16.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 59 ms
+25-Aug-2015 18:24:16.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:24:17.412 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 912 ms
+25-Aug-2015 18:24:17.413 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:24:17.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 91 ms
+25-Aug-2015 18:24:17.521 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:24:17.606 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 85 ms
+25-Aug-2015 18:24:17.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:24:17.667 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 59 ms
+25-Aug-2015 18:24:17.677 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:24:17.723 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:24:17.748 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2120 ms
+25-Aug-2015 18:37:41.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:37:41.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:37:41.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:37:41.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:37:41.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:37:41.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:37:41.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:37:41.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:37:41.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:37:41.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:37:41.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:37:41.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:37:41.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:37:41.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:37:41.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:37:41.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:37:41.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:37:41.991 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:37:42.244 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:37:42.319 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:37:42.326 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:37:42.344 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:37:42.346 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1098 ms
+25-Aug-2015 18:37:42.407 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:37:42.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:37:42.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:37:43.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 704 ms
+25-Aug-2015 18:37:43.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:37:43.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 43 ms
+25-Aug-2015 18:37:43.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:37:43.866 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 689 ms
+25-Aug-2015 18:37:43.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:37:43.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 59 ms
+25-Aug-2015 18:37:43.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:37:43.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 67 ms
+25-Aug-2015 18:37:43.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:37:44.041 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 46 ms
+25-Aug-2015 18:37:44.048 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:37:44.083 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:37:44.105 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1758 ms
+25-Aug-2015 18:44:04.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:44:04.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:44:04.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:44:04.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:44:04.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:44:04.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:44:04.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:44:04.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:44:04.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:44:04.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:04.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:04.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:44:04.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:44:04.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:44:04.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:04.959 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:04.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:44:04.961 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:44:05.174 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:44:05.265 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:44:05.273 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:44:05.291 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:44:05.293 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1082 ms
+25-Aug-2015 18:44:05.343 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:44:05.344 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:44:05.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:44:06.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 818 ms
+25-Aug-2015 18:44:06.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:44:06.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 48 ms
+25-Aug-2015 18:44:06.239 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:44:07.015 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 776 ms
+25-Aug-2015 18:44:07.016 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:44:07.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 63 ms
+25-Aug-2015 18:44:07.080 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:44:07.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 61 ms
+25-Aug-2015 18:44:07.142 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:44:07.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 49 ms
+25-Aug-2015 18:44:07.198 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:44:07.231 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:44:07.252 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1958 ms
+25-Aug-2015 18:44:47.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:44:47.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:44:47.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:44:47.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:44:47.029 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:44:47.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:44:47.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:44:47.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:44:47.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:44:47.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:47.031 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:47.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:44:47.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:44:47.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:44:47.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:47.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:44:47.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:44:47.037 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:44:47.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:44:47.312 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:44:47.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:44:47.337 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:44:47.338 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1024 ms
+25-Aug-2015 18:44:47.388 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:44:47.389 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:44:47.404 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:44:48.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 658 ms
+25-Aug-2015 18:44:48.064 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:44:48.104 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 40 ms
+25-Aug-2015 18:44:48.105 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:44:48.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 646 ms
+25-Aug-2015 18:44:48.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:44:48.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 67 ms
+25-Aug-2015 18:44:48.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:44:48.889 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 69 ms
+25-Aug-2015 18:44:48.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:44:48.942 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 51 ms
+25-Aug-2015 18:44:48.948 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:44:48.981 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:44:49.002 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1663 ms
+25-Aug-2015 18:46:04.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:46:04.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:46:04.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:46:04.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:46:04.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:46:04.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:46:04.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:46:04.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:46:04.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:46:04.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:04.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:04.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:46:04.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:46:04.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:46:04.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:04.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:04.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:46:04.071 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:46:04.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:46:04.319 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:46:04.326 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:46:04.345 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:46:04.346 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1033 ms
+25-Aug-2015 18:46:04.408 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:46:04.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:46:04.424 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:46:12.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:46:12.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:46:12.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:46:12.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:46:12.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:46:12.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:46:12.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:46:12.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:46:12.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:46:12.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:12.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:12.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:46:12.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:46:12.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:46:12.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:12.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:46:12.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:46:12.265 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:46:12.491 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:46:12.551 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:46:12.558 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:46:12.575 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:46:12.576 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1049 ms
+25-Aug-2015 18:46:12.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:46:12.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:46:12.651 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:46:13.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 694 ms
+25-Aug-2015 18:46:13.347 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:46:13.393 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 46 ms
+25-Aug-2015 18:46:13.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:46:14.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 719 ms
+25-Aug-2015 18:46:14.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:46:14.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 62 ms
+25-Aug-2015 18:46:14.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:46:14.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 54 ms
+25-Aug-2015 18:46:14.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:46:14.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 53 ms
+25-Aug-2015 18:46:14.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:46:14.326 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:46:14.348 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1770 ms
+25-Aug-2015 18:48:03.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:48:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:48:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:48:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:48:03.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:48:03.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:48:03.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:48:03.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:48:03.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:48:03.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:48:03.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:48:03.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:48:03.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:48:03.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:48:03.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:48:03.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:48:03.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:48:03.334 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:48:03.565 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:48:03.626 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:48:03.638 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:48:03.656 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:48:03.658 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1146 ms
+25-Aug-2015 18:48:03.723 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:48:03.723 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:48:03.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:48:04.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 747 ms
+25-Aug-2015 18:48:04.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:48:04.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 41 ms
+25-Aug-2015 18:48:04.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:48:05.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 704 ms
+25-Aug-2015 18:48:05.237 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:48:05.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 67 ms
+25-Aug-2015 18:48:05.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:48:05.376 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 73 ms
+25-Aug-2015 18:48:05.377 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:48:05.430 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 53 ms
+25-Aug-2015 18:48:05.436 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:48:05.466 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:48:05.498 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1839 ms
+25-Aug-2015 18:49:09.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:49:09.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:49:09.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:49:09.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:49:09.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:49:09.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:49:09.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:49:09.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:49:09.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:49:09.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:09.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:09.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:49:09.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:49:09.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:49:09.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:09.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:09.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:49:09.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:49:09.673 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:49:09.746 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:49:09.753 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:49:09.772 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:49:09.773 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1111 ms
+25-Aug-2015 18:49:09.821 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:49:09.822 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:49:09.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:49:10.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 769 ms
+25-Aug-2015 18:49:10.614 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:49:10.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 46 ms
+25-Aug-2015 18:49:10.661 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:49:11.419 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 758 ms
+25-Aug-2015 18:49:11.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:49:11.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 82 ms
+25-Aug-2015 18:49:11.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:49:11.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 75 ms
+25-Aug-2015 18:49:11.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:49:11.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 110 ms
+25-Aug-2015 18:49:11.706 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:49:11.749 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:49:11.771 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1996 ms
+25-Aug-2015 18:49:54.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:49:54.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:49:54.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:49:54.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:49:54.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:49:54.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:49:54.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:49:54.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:49:54.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:49:54.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:54.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:54.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:49:54.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:49:54.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:49:54.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:54.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:49:54.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:49:54.012 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:49:54.255 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:49:54.319 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:49:54.328 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:49:54.346 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:49:54.347 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1124 ms
+25-Aug-2015 18:49:54.412 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:49:54.413 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:49:54.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:49:55.130 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 698 ms
+25-Aug-2015 18:49:55.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:49:55.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 43 ms
+25-Aug-2015 18:49:55.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:49:55.900 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 724 ms
+25-Aug-2015 18:49:55.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:49:55.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 80 ms
+25-Aug-2015 18:49:55.985 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:49:56.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 72 ms
+25-Aug-2015 18:49:56.057 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:49:56.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 56 ms
+25-Aug-2015 18:49:56.122 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:49:56.160 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:49:56.182 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1834 ms
+25-Aug-2015 18:50:39.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:50:39.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:50:39.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:50:39.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:50:39.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:50:39.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:50:39.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:50:39.282 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:50:39.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:50:39.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:50:39.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:50:39.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:50:39.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:50:39.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:50:39.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:50:39.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:50:39.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:50:39.288 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:50:39.527 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:50:39.599 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:50:39.606 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:50:39.629 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:50:39.631 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1096 ms
+25-Aug-2015 18:50:39.701 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:50:39.701 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:50:39.726 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:50:40.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 717 ms
+25-Aug-2015 18:50:40.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:50:40.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 39 ms
+25-Aug-2015 18:50:40.485 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:50:41.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 722 ms
+25-Aug-2015 18:50:41.208 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:50:41.284 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 76 ms
+25-Aug-2015 18:50:41.285 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:50:41.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 73 ms
+25-Aug-2015 18:50:41.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:50:41.407 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 48 ms
+25-Aug-2015 18:50:41.413 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:50:41.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:50:41.465 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1832 ms
+25-Aug-2015 18:51:19.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:51:19.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:51:19.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:51:19.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:51:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:51:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:51:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:51:19.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:51:19.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:51:19.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:51:19.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:51:19.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:51:19.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:51:19.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:51:19.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:51:19.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:51:19.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:51:19.970 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:51:20.179 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:51:20.245 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:51:20.252 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:51:20.268 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:51:20.269 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1095 ms
+25-Aug-2015 18:51:20.313 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:51:20.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:51:20.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:51:21.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 679 ms
+25-Aug-2015 18:51:21.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:51:21.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 39 ms
+25-Aug-2015 18:51:21.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:51:21.716 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 662 ms
+25-Aug-2015 18:51:21.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:51:21.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 66 ms
+25-Aug-2015 18:51:21.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:51:21.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 53 ms
+25-Aug-2015 18:51:21.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:51:21.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 40 ms
+25-Aug-2015 18:51:21.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:51:21.916 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:51:21.938 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1667 ms
+25-Aug-2015 18:53:31.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 18:53:31.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 18:53:31.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 18:53:31.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 18:53:31.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 18:53:31.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 18:53:31.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 18:53:31.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 18:53:31.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 18:53:31.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:53:31.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:53:31.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 18:53:31.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 18:53:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 18:53:31.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:53:31.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 18:53:31.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 18:53:31.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 18:53:32.052 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:53:32.116 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:53:32.121 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:53:32.139 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 18:53:32.140 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1158 ms
+25-Aug-2015 18:53:32.197 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 18:53:32.198 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 18:53:32.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 18:53:32.858 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 643 ms
+25-Aug-2015 18:53:32.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 18:53:32.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 39 ms
+25-Aug-2015 18:53:32.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 18:53:33.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 702 ms
+25-Aug-2015 18:53:33.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 18:53:33.671 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 69 ms
+25-Aug-2015 18:53:33.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 18:53:33.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 78 ms
+25-Aug-2015 18:53:33.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 18:53:33.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 54 ms
+25-Aug-2015 18:53:33.813 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 18:53:33.841 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 18:53:33.863 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1721 ms
+25-Aug-2015 19:06:57.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 19:06:57.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 19:06:57.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 19:06:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 19:06:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 19:06:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 19:06:57.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 19:06:57.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 19:06:57.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 19:06:57.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:06:57.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:06:57.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 19:06:57.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 19:06:57.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 19:06:57.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:06:57.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:06:57.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 19:06:57.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 19:06:57.324 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 19:06:57.397 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 19:06:57.403 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 19:06:57.419 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 19:06:57.420 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1048 ms
+25-Aug-2015 19:06:57.477 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 19:06:57.479 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 19:06:57.496 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 19:06:58.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 694 ms
+25-Aug-2015 19:06:58.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 19:06:58.240 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 48 ms
+25-Aug-2015 19:06:58.241 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 19:06:58.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 729 ms
+25-Aug-2015 19:06:58.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 19:06:59.148 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 176 ms
+25-Aug-2015 19:06:59.150 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 19:06:59.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 81 ms
+25-Aug-2015 19:06:59.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 19:06:59.278 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 46 ms
+25-Aug-2015 19:06:59.283 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 19:06:59.311 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 19:06:59.333 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1911 ms
+25-Aug-2015 19:07:58.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 19:07:58.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 19:07:58.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 19:07:58.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 19:07:58.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 19:07:58.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 19:07:58.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 19:07:58.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 19:07:58.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 19:07:58.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:07:58.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:07:58.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 19:07:58.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 19:07:58.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 19:07:58.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:07:58.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 19:07:58.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 19:07:58.785 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 19:07:59.010 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 19:07:59.066 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 19:07:59.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 19:07:59.088 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 19:07:59.090 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1050 ms
+25-Aug-2015 19:07:59.134 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 19:07:59.135 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 19:07:59.152 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 19:07:59.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 678 ms
+25-Aug-2015 19:07:59.831 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 19:07:59.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 40 ms
+25-Aug-2015 19:07:59.872 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 19:08:00.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 654 ms
+25-Aug-2015 19:08:00.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 19:08:00.584 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 57 ms
+25-Aug-2015 19:08:00.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 19:08:00.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 65 ms
+25-Aug-2015 19:08:00.651 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 19:08:00.692 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 40 ms
+25-Aug-2015 19:08:00.697 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 19:08:00.730 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 19:08:00.755 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1664 ms
+25-Aug-2015 21:45:24.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 21:45:24.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 21:45:24.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 21:45:24.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 21:45:24.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 21:45:24.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 21:45:24.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 21:45:24.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 21:45:24.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 21:45:24.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 21:45:24.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 21:45:24.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 21:45:24.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 21:45:24.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 21:45:24.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 21:45:24.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 21:45:24.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 21:45:24.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 21:45:24.978 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 21:45:25.070 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 21:45:25.077 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 21:45:25.096 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 21:45:25.097 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1286 ms
+25-Aug-2015 21:45:25.158 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 21:45:25.159 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 21:45:25.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 21:45:26.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 837 ms
+25-Aug-2015 21:45:26.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 21:45:26.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 52 ms
+25-Aug-2015 21:45:26.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 21:45:27.119 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 1,046 ms
+25-Aug-2015 21:45:27.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 21:45:27.209 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 89 ms
+25-Aug-2015 21:45:27.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 21:45:27.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 129 ms
+25-Aug-2015 21:45:27.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 21:45:27.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 108 ms
+25-Aug-2015 21:45:27.463 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 21:45:27.508 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 21:45:27.557 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2458 ms
+25-Aug-2015 22:13:02.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+25-Aug-2015 22:13:02.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+25-Aug-2015 22:13:02.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+25-Aug-2015 22:13:02.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+25-Aug-2015 22:13:02.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+25-Aug-2015 22:13:02.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2015 22:13:02.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+25-Aug-2015 22:13:02.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+25-Aug-2015 22:13:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2015 22:13:02.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 22:13:02.172 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 22:13:02.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+25-Aug-2015 22:13:02.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2015 22:13:02.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+25-Aug-2015 22:13:02.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 22:13:02.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24
+25-Aug-2015 22:13:02.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+25-Aug-2015 22:13:02.178 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Skype\Phone\;.
+25-Aug-2015 22:13:02.446 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 22:13:02.524 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 22:13:02.534 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 22:13:02.557 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Aug-2015 22:13:02.559 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1454 ms
+25-Aug-2015 22:13:02.640 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+25-Aug-2015 22:13:02.641 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+25-Aug-2015 22:13:02.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+25-Aug-2015 22:13:03.558 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 880 ms
+25-Aug-2015 22:13:03.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+25-Aug-2015 22:13:03.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 43 ms
+25-Aug-2015 22:13:03.603 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+25-Aug-2015 22:13:04.411 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 808 ms
+25-Aug-2015 22:13:04.412 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+25-Aug-2015 22:13:04.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 69 ms
+25-Aug-2015 22:13:04.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+25-Aug-2015 22:13:04.558 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 75 ms
+25-Aug-2015 22:13:04.559 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+25-Aug-2015 22:13:04.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 48 ms
+25-Aug-2015 22:13:04.614 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2015 22:13:04.644 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Aug-2015 22:13:04.669 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2101 ms

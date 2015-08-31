@@ -1,0 +1,1013 @@
+11-Aug-2015 18:02:48.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:02:48.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:02:48.315 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:02:48.377 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:02:48.385 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:02:48.387 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:02:48.388 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:02:48.388 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+11-Aug-2015 18:02:48.406 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:02:48.406 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:02:48.502 SEVERE [Catalina-startStop-1] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calculator]]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:871)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/calculator]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	... 6 more
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name CalcServlet
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3071)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3050)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1372)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1176)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5066)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+
+11-Aug-2015 18:02:48.503 SEVERE [main] org.apache.catalina.core.ContainerBase.startInternal A child container failed during start
+ java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:439)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:769)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1408)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1398)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:924)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:871)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 6 more
+
+11-Aug-2015 18:02:48.503 SEVERE [main] org.apache.catalina.startup.Catalina.start The required Server component failed to start so Tomcat is unable to start.
+ org.apache.catalina.LifecycleException: Failed to start component [StandardServer[8005]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardService[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:769)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 7 more
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:439)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 9 more
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:924)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 11 more
+
+11-Aug-2015 18:02:48.504 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:02:48.504 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:02:48.504 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:02:48.505 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:02:48.505 SEVERE [main] org.apache.coyote.AbstractProtocol.destroy Failed to destroy end point associated with ProtocolHandler ["http-nio-8080"]
+ java.lang.NullPointerException
+	at org.apache.tomcat.util.net.NioEndpoint.releaseCaches(NioEndpoint.java:304)
+	at org.apache.tomcat.util.net.NioEndpoint.unbind(NioEndpoint.java:480)
+	at org.apache.tomcat.util.net.AbstractEndpoint.destroy(AbstractEndpoint.java:818)
+	at org.apache.coyote.AbstractProtocol.destroy(AbstractProtocol.java:532)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1023)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:588)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:859)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+11-Aug-2015 18:02:48.505 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:02:48.505 SEVERE [main] org.apache.coyote.AbstractProtocol.destroy Failed to destroy end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.lang.NullPointerException
+	at org.apache.tomcat.util.net.NioEndpoint.releaseCaches(NioEndpoint.java:304)
+	at org.apache.tomcat.util.net.NioEndpoint.unbind(NioEndpoint.java:480)
+	at org.apache.tomcat.util.net.AbstractEndpoint.destroy(AbstractEndpoint.java:818)
+	at org.apache.coyote.AbstractProtocol.destroy(AbstractProtocol.java:532)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1023)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:588)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:859)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:305)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:629)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+11-Aug-2015 18:03:48.144 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 133 column 4: The element type "Host" must be terminated by the matching end-tag "</Host>".
+ org.xml.sax.SAXParseException; systemId: file:/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/server.xml; lineNumber: 133; columnNumber: 4; The element type "Host" must be terminated by the matching end-tag "</Host>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1451)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:551)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:599)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:310)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+
+11-Aug-2015 18:03:48.146 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The element type "Host" must be terminated by the matching end-tag "</Host>".
+11-Aug-2015 18:03:48.151 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 133 column 4: The element type "Host" must be terminated by the matching end-tag "</Host>".
+ org.xml.sax.SAXParseException; systemId: file:/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/server.xml; lineNumber: 133; columnNumber: 4; The element type "Host" must be terminated by the matching end-tag "</Host>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1451)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:551)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:613)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:351)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+
+11-Aug-2015 18:03:48.151 WARNING [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: The element type "Host" must be terminated by the matching end-tag "</Host>".
+11-Aug-2015 18:03:48.151 SEVERE [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+11-Aug-2015 18:04:13.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:04:13.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:04:13.166 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:04:13.217 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:04:13.227 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:04:13.228 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:04:13.229 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:04:13.230 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 290 ms
+11-Aug-2015 18:04:13.245 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:04:13.245 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:04:13.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:04:13.420 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 168 ms
+11-Aug-2015 18:04:13.420 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:04:13.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 34 ms
+11-Aug-2015 18:04:13.454 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:04:13.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 20 ms
+11-Aug-2015 18:04:13.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:04:13.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 191 ms
+11-Aug-2015 18:04:13.666 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:04:13.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:04:13.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/servlet
+11-Aug-2015 18:04:13.684 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/servlet]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1101)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1786)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name CalcServlet
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3071)
+	at org.apache.catalina.core.StandardContext.addServletMapping(StandardContext.java:3050)
+	at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1372)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1176)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:305)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5066)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+
+11-Aug-2015 18:04:13.685 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/servlet
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/servlet]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1101)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1786)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+11-Aug-2015 18:04:13.685 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/servlet has finished in 9 ms
+11-Aug-2015 18:04:13.687 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:04:13.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:04:13.691 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 460 ms
+11-Aug-2015 18:06:04.205 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/servlet]
+11-Aug-2015 18:06:14.231 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:06:14.249 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 18 ms
+11-Aug-2015 18:06:15.100 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:06:15.152 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:06:15.203 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:06:15.216 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:06:15.216 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:06:15.217 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:06:15.217 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:06:16.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:06:16.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:06:16.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:06:16.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:06:16.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:06:16.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:06:16.415 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:06:16.466 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:06:16.475 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:06:16.477 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:06:16.478 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:06:16.478 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+11-Aug-2015 18:06:16.495 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:06:16.495 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:06:16.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:06:16.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 186 ms
+11-Aug-2015 18:06:16.688 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:06:16.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 16 ms
+11-Aug-2015 18:06:16.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:06:16.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 23 ms
+11-Aug-2015 18:06:16.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:06:16.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:06:16.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:06:16.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 142 ms
+11-Aug-2015 18:06:16.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:06:16.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:06:16.895 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:06:16.898 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:06:16.899 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 420 ms
+11-Aug-2015 18:09:03.329 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:09:03.386 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:09:03.436 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:09:03.455 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:09:03.460 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:09:03.460 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:09:03.460 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:13:52.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:13:52.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:13:52.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:13:52.818 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:13:52.827 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:13:52.829 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:13:52.830 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:13:52.831 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+11-Aug-2015 18:13:52.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:13:52.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:13:52.852 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:13:53.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 167 ms
+11-Aug-2015 18:13:53.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:13:53.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 12 ms
+11-Aug-2015 18:13:53.031 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:13:53.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 22 ms
+11-Aug-2015 18:13:53.053 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:13:53.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 20 ms
+11-Aug-2015 18:13:53.073 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:13:53.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 158 ms
+11-Aug-2015 18:13:53.231 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:13:53.240 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:13:53.242 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:13:53.245 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:13:53.245 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 414 ms
+11-Aug-2015 18:14:26.098 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:14:26.152 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:14:26.203 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:14:26.221 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:14:26.261 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:14:26.262 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:14:26.262 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:14:47.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:14:47.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:14:47.132 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:14:47.185 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:14:47.195 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:14:47.196 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:14:47.198 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:14:47.198 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+11-Aug-2015 18:14:47.213 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:14:47.213 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:14:47.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:14:47.381 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 161 ms
+11-Aug-2015 18:14:47.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:14:47.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 12 ms
+11-Aug-2015 18:14:47.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:14:47.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 20 ms
+11-Aug-2015 18:14:47.414 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:14:47.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:14:47.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:14:47.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 153 ms
+11-Aug-2015 18:14:47.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:14:47.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:14:47.594 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:14:47.597 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:14:47.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 399 ms
+11-Aug-2015 18:18:12.502 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:18:12.556 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:18:12.606 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:18:12.624 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:18:12.625 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:18:12.626 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:18:12.626 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:18:13.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:18:13.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:18:13.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:18:13.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:18:13.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:18:13.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:18:13.568 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:18:13.620 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:18:13.629 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:18:13.631 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:18:13.633 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:18:13.633 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 292 ms
+11-Aug-2015 18:18:13.648 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:18:13.649 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:18:13.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:18:13.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 159 ms
+11-Aug-2015 18:18:13.813 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:18:13.825 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 12 ms
+11-Aug-2015 18:18:13.825 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:18:13.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:18:13.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:18:13.856 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 13 ms
+11-Aug-2015 18:18:13.857 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:18:13.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 140 ms
+11-Aug-2015 18:18:13.997 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:18:14.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:18:14.008 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:18:14.011 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:18:14.012 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 378 ms
+11-Aug-2015 18:19:34.018 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+11-Aug-2015 18:19:34.018 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+11-Aug-2015 18:19:34.033 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+11-Aug-2015 18:19:38.218 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:19:38.273 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:19:38.324 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:19:38.338 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:19:38.339 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:19:38.340 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:19:38.340 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:19:39.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:19:39.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:19:39.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:19:39.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:19:39.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:19:39.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:19:39.585 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:19:39.636 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:19:39.646 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:19:39.647 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:19:39.648 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:19:39.649 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 288 ms
+11-Aug-2015 18:19:39.664 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:19:39.664 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:19:39.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:19:39.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 168 ms
+11-Aug-2015 18:19:39.839 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:19:39.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 12 ms
+11-Aug-2015 18:19:39.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:19:39.869 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:19:39.870 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:19:39.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:19:39.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:19:40.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 139 ms
+11-Aug-2015 18:19:40.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:19:40.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:19:40.034 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:19:40.038 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:19:40.038 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 389 ms
+11-Aug-2015 18:20:29.213 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:20:29.265 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:20:29.316 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:20:29.338 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:20:29.340 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:20:29.341 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:20:29.341 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:20:30.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:20:30.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:20:30.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:20:30.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:20:30.217 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:20:30.218 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:20:30.270 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:20:30.280 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:20:30.281 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:20:30.282 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:20:30.282 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 324 ms
+11-Aug-2015 18:20:30.298 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:20:30.298 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:20:30.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:20:30.407 INFO [localhost-startStop-1] org.apache.catalina.core.StandardContext.checkUnusualURLPattern Suspicious url pattern: "/calculate*" in context [/calculator] - see sections 12.1 and 12.2 of the Servlet specification
+11-Aug-2015 18:20:30.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 162 ms
+11-Aug-2015 18:20:30.466 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:20:30.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 12 ms
+11-Aug-2015 18:20:30.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:20:30.497 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:20:30.497 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:20:30.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:20:30.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:20:30.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 139 ms
+11-Aug-2015 18:20:30.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:20:30.659 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:20:30.661 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:20:30.664 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:20:30.665 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 382 ms
+11-Aug-2015 18:21:26.821 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:21:26.873 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:21:26.923 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:21:26.942 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:21:26.943 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:21:26.943 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:21:26.943 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:21:27.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:21:27.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:21:27.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:21:27.926 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:21:27.935 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:21:27.937 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:21:27.938 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:21:27.938 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 295 ms
+11-Aug-2015 18:21:27.954 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:21:27.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:21:27.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:21:28.153 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 193 ms
+11-Aug-2015 18:21:28.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:21:28.164 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 10 ms
+11-Aug-2015 18:21:28.164 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:21:28.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:21:28.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:21:28.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:21:28.196 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:21:28.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 149 ms
+11-Aug-2015 18:21:28.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:21:28.354 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:21:28.356 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:21:28.359 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:21:28.360 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 421 ms
+11-Aug-2015 18:28:38.406 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+11-Aug-2015 18:28:38.406 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+11-Aug-2015 18:28:38.423 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+11-Aug-2015 18:28:44.800 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:28:44.852 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:28:44.902 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:28:44.917 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:28:44.921 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:28:44.922 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:28:44.922 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:28:45.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:28:45.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:28:45.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:28:45.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:28:45.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:28:45.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:28:45.826 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:28:45.876 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:28:45.885 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:28:45.887 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:28:45.888 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:28:45.888 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 296 ms
+11-Aug-2015 18:28:45.903 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:28:45.904 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:28:45.909 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:28:46.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 160 ms
+11-Aug-2015 18:28:46.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:28:46.081 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:28:46.082 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:28:46.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 23 ms
+11-Aug-2015 18:28:46.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:28:46.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 18 ms
+11-Aug-2015 18:28:46.124 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:28:46.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 159 ms
+11-Aug-2015 18:28:46.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:28:46.292 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:28:46.295 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:28:46.300 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:28:46.301 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 411 ms
+11-Aug-2015 18:31:03.826 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:31:03.881 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:31:03.932 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:31:03.952 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:31:04.041 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:31:04.042 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:31:04.042 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:31:04.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:31:04.941 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:31:04.942 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:31:04.994 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:31:05.003 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:31:05.005 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:31:05.006 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:31:05.007 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 295 ms
+11-Aug-2015 18:31:05.022 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:31:05.022 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:31:05.028 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:31:05.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 171 ms
+11-Aug-2015 18:31:05.200 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:31:05.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:31:05.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:31:05.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 19 ms
+11-Aug-2015 18:31:05.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:31:05.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:31:05.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:31:05.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 134 ms
+11-Aug-2015 18:31:05.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:31:05.388 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:31:05.389 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:31:05.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:31:05.393 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 386 ms
+11-Aug-2015 18:32:30.811 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:32:30.865 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:32:30.915 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:32:30.933 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:32:30.933 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:32:30.934 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:32:30.934 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:32:32.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:32:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:32:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:32:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:32:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:32:32.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:32:32.145 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:32:32.210 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:32:32.221 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:32:32.222 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:32:32.223 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:32:32.224 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 306 ms
+11-Aug-2015 18:32:32.243 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:32:32.243 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:32:32.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:32:32.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 205 ms
+11-Aug-2015 18:32:32.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:32:32.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 15 ms
+11-Aug-2015 18:32:32.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:32:32.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 25 ms
+11-Aug-2015 18:32:32.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:32:32.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 18 ms
+11-Aug-2015 18:32:32.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:32:32.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 180 ms
+11-Aug-2015 18:32:32.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:32:32.706 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 13 ms
+11-Aug-2015 18:32:32.708 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:32:32.712 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:32:32.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 488 ms
+11-Aug-2015 18:37:35.220 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:37:35.275 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:37:35.325 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:37:35.344 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:37:35.440 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:37:35.441 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:37:35.441 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:37:36.607 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:37:36.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:37:36.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:37:36.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:37:36.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:37:36.609 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:37:36.661 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:37:36.670 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:37:36.671 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:37:36.672 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:37:36.673 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 285 ms
+11-Aug-2015 18:37:36.688 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:37:36.688 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:37:36.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:37:36.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 190 ms
+11-Aug-2015 18:37:36.884 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:37:36.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:37:36.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:37:36.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:37:36.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:37:36.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 12 ms
+11-Aug-2015 18:37:36.927 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:37:37.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 133 ms
+11-Aug-2015 18:37:37.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:37:37.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:37:37.071 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:37:37.074 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:37:37.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 402 ms
+11-Aug-2015 18:38:25.884 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:38:25.940 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:38:25.991 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:38:26.013 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:38:26.014 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:38:26.014 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:38:26.015 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:38:26.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:38:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:38:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:38:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:38:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:38:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:38:26.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:38:26.982 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:38:26.991 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:38:26.992 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:38:26.993 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:38:26.994 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 289 ms
+11-Aug-2015 18:38:27.009 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:38:27.009 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:38:27.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:38:27.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 231 ms
+11-Aug-2015 18:38:27.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:38:27.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:38:27.257 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:38:27.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 19 ms
+11-Aug-2015 18:38:27.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:38:27.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 15 ms
+11-Aug-2015 18:38:27.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:38:27.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 140 ms
+11-Aug-2015 18:38:27.431 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:38:27.441 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:38:27.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:38:27.446 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:38:27.447 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 452 ms
+11-Aug-2015 18:41:22.994 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:41:23.046 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:41:23.097 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:41:23.115 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:41:23.116 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:41:23.117 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:41:23.117 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:41:24.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:41:24.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:41:24.773 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:41:24.823 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:41:24.832 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:41:24.834 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:41:24.835 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:41:24.835 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 287 ms
+11-Aug-2015 18:41:24.850 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:41:24.850 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:41:24.856 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:41:25.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 199 ms
+11-Aug-2015 18:41:25.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:41:25.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:41:25.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:41:25.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 19 ms
+11-Aug-2015 18:41:25.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:41:25.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:41:25.098 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:41:25.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 146 ms
+11-Aug-2015 18:41:25.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:41:25.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 10 ms
+11-Aug-2015 18:41:25.256 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:41:25.259 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:41:25.259 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 424 ms
+11-Aug-2015 18:44:30.181 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:44:30.235 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:44:30.286 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:44:30.308 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:44:30.309 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:44:30.310 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:44:30.310 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:44:31.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:44:31.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:44:31.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:44:31.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:44:31.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:44:31.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:44:31.316 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:44:31.367 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:44:31.375 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:44:31.377 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:44:31.378 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:44:31.378 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 344 ms
+11-Aug-2015 18:44:31.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:44:31.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:44:31.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:44:31.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 190 ms
+11-Aug-2015 18:44:31.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:44:31.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 10 ms
+11-Aug-2015 18:44:31.601 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:44:31.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 18 ms
+11-Aug-2015 18:44:31.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:44:31.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 14 ms
+11-Aug-2015 18:44:31.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:44:31.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 136 ms
+11-Aug-2015 18:44:31.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:44:31.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:44:31.780 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:44:31.783 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:44:31.784 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 405 ms
+11-Aug-2015 18:45:24.079 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:45:24.131 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:45:24.182 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 18:45:24.205 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:45:24.206 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:45:24.207 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:45:24.207 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:55:28.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.1.3-1-ARCH
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Aug-2015 18:55:28.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_51-b16
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/conf/logging.properties
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/endorsed
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/temp
+11-Aug-2015 18:55:28.040 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Aug-2015 18:55:28.099 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:55:28.109 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:55:28.111 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:55:28.112 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Aug-2015 18:55:28.112 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 302 ms
+11-Aug-2015 18:55:28.127 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Aug-2015 18:55:28.127 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+11-Aug-2015 18:55:28.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator
+11-Aug-2015 18:55:28.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/calculator has finished in 178 ms
+11-Aug-2015 18:55:28.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs
+11-Aug-2015 18:55:28.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/docs has finished in 11 ms
+11-Aug-2015 18:55:28.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager
+11-Aug-2015 18:55:28.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/manager has finished in 19 ms
+11-Aug-2015 18:55:28.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager
+11-Aug-2015 18:55:28.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/host-manager has finished in 13 ms
+11-Aug-2015 18:55:28.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples
+11-Aug-2015 18:55:28.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/examples has finished in 134 ms
+11-Aug-2015 18:55:28.491 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT
+11-Aug-2015 18:55:28.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/gleb/Projects/intern/lesson4/example/apache-tomcat-8.0.24/webapps/ROOT has finished in 9 ms
+11-Aug-2015 18:55:28.502 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 18:55:28.505 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 18:55:28.505 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 393 ms
+11-Aug-2015 19:20:26.152 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 19:20:26.208 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 19:20:26.259 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Aug-2015 19:20:26.277 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 19:20:26.278 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Aug-2015 19:20:26.279 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Aug-2015 19:20:26.279 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

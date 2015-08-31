@@ -1,0 +1,161 @@
+21-Aug-2015 12:29:30.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.24
+21-Aug-2015 12:29:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2015 20:19:55 UTC
+21-Aug-2015 12:29:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.24.0
+21-Aug-2015 12:29:30.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+21-Aug-2015 12:29:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+21-Aug-2015 12:29:30.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Aug-2015 12:29:30.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.7.0_79\jre
+21-Aug-2015 12:29:30.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_79-b15
+21-Aug-2015 12:29:30.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Aug-2015 12:29:30.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24
+21-Aug-2015 12:29:30.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24
+21-Aug-2015 12:29:30.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\conf\logging.properties
+21-Aug-2015 12:29:30.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2015 12:29:30.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\endorsed
+21-Aug-2015 12:29:30.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24
+21-Aug-2015 12:29:30.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24
+21-Aug-2015 12:29:30.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\temp
+21-Aug-2015 12:29:30.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_79\bin;.
+21-Aug-2015 12:29:31.287 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Aug-2015 12:29:31.370 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2015 12:29:31.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2015 12:29:31.421 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Aug-2015 12:29:31.422 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2699 ms
+21-Aug-2015 12:29:31.594 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+21-Aug-2015 12:29:31.595 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.24
+21-Aug-2015 12:29:31.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+21-Aug-2015 12:29:33.406 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [222] milliseconds.
+21-Aug-2015 12:29:33.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 1,893 ms
+21-Aug-2015 12:29:33.544 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs
+21-Aug-2015 12:29:33.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\docs has finished in 74 ms
+21-Aug-2015 12:29:33.619 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples
+21-Aug-2015 12:29:34.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\examples has finished in 1,370 ms
+21-Aug-2015 12:29:34.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager
+21-Aug-2015 12:29:35.133 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\host-manager has finished in 143 ms
+21-Aug-2015 12:29:35.134 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager
+21-Aug-2015 12:29:35.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\manager has finished in 140 ms
+21-Aug-2015 12:29:35.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+21-Aug-2015 12:29:35.356 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 82 ms
+21-Aug-2015 12:29:35.388 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Aug-2015 12:29:35.415 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2015 12:29:35.437 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4014 ms
+21-Aug-2015 15:49:53.606 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:49:53.606 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:49:53.785 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:50:33.809 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:50:33.810 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:50:33.907 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:50:53.917 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:50:53.918 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:50:53.975 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:51:34.001 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:51:34.001 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:51:34.059 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:51:44.065 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:51:44.082 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:51:44.161 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:55:04.256 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:55:04.256 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:55:04.305 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:56:24.842 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/calculator]
+21-Aug-2015 15:58:34.983 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+21-Aug-2015 15:58:35.125 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 143 ms
+21-Aug-2015 15:58:55.134 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:58:55.135 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:58:55.178 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 15:59:05.184 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 15:59:05.185 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 15:59:05.236 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:05:35.565 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:05:35.565 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:05:35.675 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:06:05.697 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:06:05.698 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:06:05.756 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:19:16.337 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:19:16.338 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:19:16.405 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:20:06.438 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:20:06.439 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:20:06.497 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:21:26.552 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:21:26.552 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:21:26.637 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:28:37.446 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+21-Aug-2015 16:28:57.473 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT
+21-Aug-2015 16:28:57.523 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\ROOT has finished in 50 ms
+21-Aug-2015 16:29:07.530 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+21-Aug-2015 16:29:07.531 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+21-Aug-2015 16:29:07.616 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+21-Aug-2015 16:29:57.647 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:29:57.648 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:29:57.699 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:30:07.707 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+21-Aug-2015 16:30:07.707 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+21-Aug-2015 16:30:07.770 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+21-Aug-2015 16:34:27.983 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+21-Aug-2015 16:34:27.984 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+21-Aug-2015 16:34:28.035 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+21-Aug-2015 16:35:28.076 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:35:28.076 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:35:28.158 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:40:18.880 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/calculator]
+21-Aug-2015 16:40:28.963 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+21-Aug-2015 16:40:29.024 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 62 ms
+21-Aug-2015 16:42:09.120 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:42:09.120 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:42:09.196 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:44:59.301 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:44:59.301 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:44:59.355 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:45:49.387 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:45:49.390 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:45:49.461 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:56:09.928 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:56:09.929 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:56:09.987 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:57:50.063 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:57:50.063 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:57:50.141 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 16:59:50.211 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 16:59:50.211 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 16:59:50.279 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 17:23:01.046 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 17:23:01.047 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 17:23:01.119 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 17:29:21.848 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/calculator]
+21-Aug-2015 17:29:31.886 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+21-Aug-2015 17:29:31.951 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 65 ms
+21-Aug-2015 18:01:03.161 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:01:03.161 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:01:03.217 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:01:33.237 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:01:33.237 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:01:33.293 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:07:23.492 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:07:23.492 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:07:23.653 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:08:14.183 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:08:14.183 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:08:14.279 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:11:24.935 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/calculator]
+21-Aug-2015 18:17:55.199 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator
+21-Aug-2015 18:17:55.271 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\Users\user\IdeaProjects\WebProjects\lesson4\apache-tomcat-8.0.24\webapps\calculator has finished in 72 ms
+21-Aug-2015 18:19:55.340 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:19:55.340 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:19:55.386 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:20:25.403 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:20:25.403 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:20:25.469 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:57:06.528 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:57:06.528 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:57:06.575 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:57:26.585 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:57:26.586 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:57:26.651 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:58:26.687 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:58:26.687 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:58:26.733 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
+21-Aug-2015 18:58:36.740 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/calculator]
+21-Aug-2015 18:58:36.741 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] has started
+21-Aug-2015 18:58:36.803 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/calculator] is completed
